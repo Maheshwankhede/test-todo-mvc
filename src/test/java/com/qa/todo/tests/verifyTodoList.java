@@ -17,7 +17,7 @@ import com.qa.todo.baseSetup.baseSetup;
 import com.qa.todo.utils.constants;
 import com.qa.todo.utils.utils;
 
-public class createToDo extends baseSetup {
+public class verifyTodoList extends baseSetup {
 	
 	utils util = new utils();
 	constants data = new constants();
