@@ -29,6 +29,9 @@ Tests are organized into separate classes based on functionality or user flows. 
 ## Reporting
 TestNG generates HTML reports by default, providing detailed information about test results, including passed, failed, and skipped tests, along with stack traces for failures. Additionally, screenshots and logs can be captured during test execution to provide further insight into test failures.
 
+![image](https://github.com/Maheshwankhede/test-todo-mvc/assets/47474639/f02428e1-bb57-45d6-8d2d-0fad80ef208e)
+
+
 ## Running Tests
 Tests can be executed using a build automation tool such as Maven. Simply navigate to the project directory and run the following Maven command:
 
