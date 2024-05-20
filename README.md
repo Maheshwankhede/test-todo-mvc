@@ -15,27 +15,8 @@ This test automation project aims to automate the testing of a web-based Todo ap
 ## Project Structure
 The project is organized using the Page Object Model (POM) design pattern to improve code readability, reusability, and maintenance. Here's the directory structure:
 
-src
-│
-├── main
-│   └── java
-│       └── com
-│           └── qa
-│               └── todo
-│                   ├── baseSetup
-│                   │   └── BaseSetup.java
-│                   ├── pages
-│                   │   └── TodoPage.java
-│                   └── tests
-│                       └── TodoTests.java
-└── test
-    └── java
-        └── com
-            └── qa
-                └── todo
-                    └── utils
-                        └── ConfigReader.java
 
+![image](https://github.com/Maheshwankhede/test-todo-mvc/assets/47474639/2695d9c0-9f22-4074-b347-d5fee38981f6)
 
 * baseSetup: Contains the BaseSetup class responsible for setting up and tearing down the WebDriver instance.
 * pages: Contains Page Object classes representing different pages of the application (e.g., TodoPage).
