@@ -7,8 +7,8 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -40,7 +40,7 @@ public class baseSetup {
 	        return properties.getProperty("app_url");
 	    }
 	
-	@BeforeMethod
+	@BeforeClass
 	public void launchBrowser() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -49,10 +49,10 @@ public class baseSetup {
         driver.get(getAppUrl());
 	}
 
-	@AfterMethod
+	@AfterClass
 	public void closeBrowser() {
-		if (driver != null) {
-            driver.quit();
-        }
+//		if (driver != null) {
+//            driver.quit();
+//        }
 	}
 }

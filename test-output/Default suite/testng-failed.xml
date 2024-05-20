@@ -6,8 +6,8 @@
       <class name="com.qa.todo.tests.createToDo">
         <methods>
           <include name="closeBrowser"/>
+          <include name="updateFirstTodoItemAndVerify"/>
           <include name="launchBrowser"/>
-          <include name="verify"/>
         </methods>
       </class> <!-- com.qa.todo.tests.createToDo -->
     </classes>
